@@ -1,0 +1,45 @@
+
+ body{
+  background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoj4Xit9-Y2GQA5QxjyfhkJNDr3PsgcJC0MLapadiZqBpDr5xWSQ&s');
+    width:100%;
+  height:100%;
+  background-size:cover;
+}
+#app{
+   border: 1px solid black;
+  margin-left:500px;
+  margin-right:500px;
+  text-align:justify;
+  background-color: navyblue;
+color:white;
+  padding-top:0px;
+}
+
+#tp {
+
+  border: 1px solid black;
+ padding-top:30px;
+   padding-left:40px;
+  margin-left:500px;
+  margin-right:500px;
+  margin-top:10px;
+ 
+  text-align:justify;
+  background-color: navyblue;
+color:white;
+}
+#main{
+  text-align:center;
+  
+  color:white;
+  margin-left:300px;
+  margin-right:300px;
+  
+  
+}
+h1{
+  font-size:30px;
+}
+h2{
+  font-size:15px
+}

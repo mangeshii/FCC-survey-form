@@ -1,85 +1,110 @@
 <!doctype html>
-<html>
+<html lang="en">
+
   <head>
-   
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+      <link rel="stylesheet" href="style.css">
+
   </head>
+
   <body>
-    <center>
-      <section>
-    <div id="main">
-    <div id="title"><h1>A Survey Of Online Interview Questions</h1></div>
-      <div id="description">
-        <h2>Thankyou for taking your time and filling this form</h2>
-      </div>
-  </div>
-        <div id="tp">
-    <form>
-      <div id="survey-form">
-     
-        <label for="text">Name:  </label><br>
-        <input type="text" placeholder="enter your name"></div><br>
-        
-        <div id="email">
-        <label for="text">Email:  </label><br>
-          <input type="text" placeholder="enter your email id"></div><br>
-          
-          <div id="number">
-            <label for="number">Mobile No.</label><br>
-            <input type="text" placeholder="enter your phone number"></div><br>
-      </div>
-            <div id="app"> 
-          <ul>
-            <li> From where did you hear about this website? 
-                </li>
-              
-                 <input type="radio" name="website" value="mnsu">social media<br>
-               <input type="radio" name="website" value="mnsu">advertising<br>
-                <input type="radio" name="website" value="mnsu">search engine<br>
-                <input type="radio"><input type="text" placeholder="other"> <br>
-                <br>
-              
-                <li> Are you satisfied that you found our website?</li>
-           
- <input type="radio" name="website" value="mnsu">very satisfied<br>
-               <input type="radio" name="website" value="mnsu">satisfied<br>
-                <input type="radio" name="website" value="mnsu">neutral<br>
-                <input type="radio" name="website" value="mnsu">unsatisfied<br>
-              
-             <br> 
+    <section>
+      <div class="main">
+        <div class="container">
+          <header>
+            <div id="title">
+              <h1 class="head">A Survey Of Online Interview Questions</h1>
+            </div>
+            <div id="description">
+              <h2 class="subhead">Thankyou for taking your time and filling this form</h2>
+            </div>
+          </header>
+          <form>
+            <div id="name">
+
+              <label for="text">Name: </label><br>
+              <input type="text" class="number"></div>
+
+            <div id="email">
+              <label for="text">Email: </label><br>
+              <input type="text" class="number"></div>
+
+            <div id="number">
+              <label for="number">Mobile No.</label><br>
+              <input type="text" class="number"></div><br>
+
+            <ul>
+              <li> From where did you hear about this website?</li>
+
+              <input type="radio" name="website" value="mnsu">social media<br>
+              <input type="radio" name="website" value="mnsu">advertising<br>
+              <input type="radio" name="website" value="mnsu">search engine<br>
+              <input type="radio"><input type="text">
               <br>
-                Which country are you from?
-                <br>
+              <br>
+
+
+              <li> Are you satisfied that you found our website?</li>
+
+              <input type="radio" name="website" value="mnsu">very satisfied<br>
+              <input type="radio" name="website" value="mnsu">satisfied<br>
+              <input type="radio" name="website" value="mnsu">neutral<br>
+              <input type="radio" name="website" value="mnsu">unsatisfied
+              <br>
+              <br>
+
+              <li>Which country are you from?</li>
+
               <select>
-                
+
                 <option value="mang">Asia</options>
-                 <option value="mang">Africa</options> 
-            <option value="mang">Antartica</options>
-           <option value="mang">Europe</options>
-         <option value="mang">America</options>
-       <option value="mang">India</options>
-    </select>
-  <br>
-      <br>
-      <br>
-  which website do you prefer for programming HTML &amp CSS?<br>
-  <input type="checkbox" value="hd">codepen<br>
-  <input type="checkbox" value="hd">W3school<br>
-  <input type="checkbox" value="hd">Notepad<br>
-  <input type="checkbox" value="hd">other<br>
-  <br>
-              
-       <label for="comm"> Enter your comments here:<br>
-              <textarea rows="10"cols="60" placeholder="comments/suggestions"></textarea><br>
-                <button>submit</button>
-    
-      </form>
-    
-    
-    
-    
-  </div>
-  </div>
-</section>
-</center>
+                <option value="mang">Africa</options>
+                <option value="mang">Antartica</options>
+                <option value="mang">Europe</options>
+                <option value="mang">America</options>
+                <option value="mang">India</options>
+              </select>
+              <br>
+              <br>
+
+
+
+
+              <li>which website do you prefer for programming HTML &amp CSS?</li>
+              <input type="checkbox" value="hd">codepen<br>
+              <input type="checkbox" value="hd">W3school<br>
+              <input type="checkbox" value="hd">Notepad<br>
+              <input type="checkbox" value="hd">other<br>
+
+            </ul>
+
+
+            <button class="button">submit</button>
+
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"></script>
   </body>
+
 </html>
